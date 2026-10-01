@@ -33,4 +33,4 @@ Building this portfolio taught me how critical semantic markup tags are for stru
 - **Form Association Semantics:** Ensuring that every single user form text entry field was explicitly tied to its corresponding `<label>` tag using matching `id` and `for` properties rather than relying purely on text placements, which prevents screen-reader tool drops.
 
 ## Live Demo
-[View Live Demo](https://HellenWamuciiNjue.github.io/iyf-s12-week-01-HellenWamuciiNjue/)
+[View Live Demo](https://hellenwamuciinjue.github.io/iyf-s12-week-01-hellenwamuciinjue/)
