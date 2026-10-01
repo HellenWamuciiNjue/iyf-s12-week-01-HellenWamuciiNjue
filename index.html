@@ -3,198 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hellen Wamucii Njue | Task 1.3 Semantic Webpage</title>
+    <title>Hellen Wamucii Njue - About Me</title>
 </head>
 <body>
 
-    <!-- Header Section -->
+    <!-- ========================================== -->
+    <!-- NAVIGATION HEADER (ECASCT Order)           -->
+    <!-- ========================================== -->
     <header>
-        <h1>Week 1: Semantic HTML Structural Mapping</h1>
-        <p>Demonstrating baseline structural layout tags for the IYF Weekend Academy Full-Stack Track.</p>
-        
-        <!-- Navigation Menu Element -->
+        <h1>Hellen Wamucii Njue</h1>
         <nav>
             <ul>
-                <li><a href="#main-content">Core Assignments</a></li>
-                <li><a href="#side-info">Supplementary Notes</a></li>
+                <!-- Current page is wrapped in strong tags as a clear visual anchor -->
+                <li><a href="index.html"><strong>Home (Current Page)</strong></a></li> <!-- E -->
+                <li><a href="contact.html">Contact</a></li>                            <!-- C -->
+                <li><a href="about.html">About</a></li>                                <!-- A -->
+                <li><a href="semantic-conversion.html">Semantic Conversion</a></li>    <!-- S -->
+                <li><a href="projects.html">Projects</a></li>                          <!-- C -->
             </ul>
         </nav>
     </header>
 
-    <!-- Main Content Blueprint Container -->
-    <main id="main-content">
-        
-        <!-- Independent Article Block -->
-        <article>
-            <h2>Understanding Semantic Tags</h2>
-            <p>The <code>&lt;header&gt;</code> element acts as an introductory wrapper containing headings or branding, while the <code>&lt;nav&gt;</code> element is strictly reserved for grouping collections of navigational links.</p>
-            <p>The <code>&lt;main&gt;</code> tag groups the primary unique topic matter of the page body. Inside it, an <code>&lt;article&gt;</code> defines an independent, self-contained post block that makes complete sense on its own, such as an isolated forum topic or assignment summary log.</p>
-        </article>
-
-        <!-- Side Callout Component -->
-        <aside id="side-info">
-            <h3>Environment Callout</h3>
-            <p>The <code>&lt;aside&gt;</code> element encapsulates information that is tangentially related to the surrounding main topic flow, like sidebars, callout notes, dictionary lists, or background profiles.</p>
-        </aside>
-
-                <!-- Interactive Form Section -->
-        <section id="user-registration">
-            <h2>Task 1.4: Form and Input Elements</h2>
-            <form action="#" method="POST">
-                
-                <div>
-                    <label for="username">Full Name:</label>
-                    <input type="text" id="username" name="username" required placeholder="Hellen Wamucii Njue">
-                </div>
-
-                <div>
-                    <label for="useremail">Email Address:</label>
-                    <input type="email" id="useremail" name="useremail" required placeholder="name@example.com">
-                </div>
-
-                <div>
-                    <label for="cohort">Course Season:</label>
-                    <select id="cohort" name="cohort">
-                        <option value="season-12">Season 12 (Current)</option>
-                        <option value="season-13">Season 13</option>
-                    </select>
-                </div>
-
-                <div>
-                    <button type="submit">Submit Registration</button>
-                </div>
-
-            </form>
+    <!-- ========================================== -->
+    <!-- MAIN HERO CONTENT SECTION                  -->
+    <!-- ========================================== -->
+    <main>
+        <section>
+            <h2>Welcome to My Engineering Portfolio</h2>
+            
+            <!-- Profile Image using the requested images/ path structure -->
+            <img src="images/placeholder.jpg" alt="Profile photograph of Hellen Wamucii Njue" width="200">
+            
+            <p>
+                Hi there! My name is Hellen Wamucii Njue. I am an aspiring expert programmer 
+                currently studying full-stack web engineering at the IYF Weekend Academy during Season 12. 
+                I am highly passionate about automation, app development, and learning to write clean, 
+                semantic software systems clearly and easily.
+            </p>
         </section>
 
-                <!-- Lesson 2: Advanced Lists and Typography Section -->
-        <section id="advanced-lists">
-            <h2>Lesson 2: Structuring Information with Lists</h2>
-            
-            <h3>My Core Study Tracker (Unordered List)</h3>
+        <!-- ========================================== -->
+        <!-- HOBBIES SECTION                            -->
+        <!-- ========================================== -->
+        <section>
+            <h3>Hobbies & Interests</h3>
             <ul>
-                <li>Mastering HTML5 Semantic Structure</li>
-                <li>CSS3 Cascading Frameworks & Selectors</li>
-                <li>Python Backend Logic Foundations</li>
+                <li>Exploring new software engineering frameworks and writing clean source code.</li>
+                <li>Discovering high-spirited, danceable Afro-pop and Afrobeats music.</li>
+                <li>Dining out and exploring beautiful natural outdoor resorts with my family.</li>
             </ul>
-
-            <h3>Daily Workflow Steps (Ordered List)</h3>
-            <ol>
-                <li>Run <code>git pull</code> to synchronize local files.</li>
-                <li>Code assignment milestones inside Visual Studio Code.</li>
-                <li>Execute <code>git push</code> to update the submission tracking hub.</li>
-            </ol>
-
-            <h3>Key Terms Dictionary (Description List)</h3>
-            <dl>
-                <dt>Semantic HTML</dt>
-                <dd>Markup that introduces meaning to a webpage structure rather than just presentation details.</dd>
-                <dt>Version Control</dt>
-                <dd>A mechanism that tracks and records modifications to code projects over time.</dd>
-            </dl>
         </section>
 
-                <!-- Task 2.2: Structured Data Table Section -->
-        <section id="data-tables">
-            <h2>Task 2.2: Data Presentation with Tables</h2>
-            <table border="1">
-                <caption>Weekly Assignment Status Tracking Matrix</caption>
-                <thead>
-                    <tr>
-                        <th>Week Number</th>
-                        <th>Module Focus Topic</th>
-                        <th>Completion Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Week 00</td>
-                        <td>Git and GitHub Infrastructure Setup</td>
-                        <td>Validated & Merged</td>
-                    </tr>
-                    <tr>
-                        <td>Week 01</td>
-                        <td>Web Foundations & Accessibility Audits</td>
-                        <td>In Progress</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-                                <!-- Task 2.3: Native Audio and Video Media Embeds Section -->
-        <section id="media-embeds">
-            <h2>Task 2.3: Multimedia Elements</h2>
-            
-            <h3>Native Audio Player (Local File)</h3>
-            <audio controls>
-                <source src="IYF.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-
-            <h3>Native Video Player (Local File)</h3>
-            <video controls width="400">
-                <source src="IYF.mp4" type="video/mp4">
-                Your browser does not support the video element.
-            </video>
-        </section>
-
-        <!-- Week 1: The 5 Daily Challenges Section -->
-        <section id="daily-challenges">
-            <h2>Week 1: Daily Challenges Portfolio</h2>
-
-            <!-- Challenge 1: Inline Elements & Semantic Text Formatting -->
-            <article id="challenge-1">
-                <h3>Daily Challenge 1: Inline Phrasing Elements</h3>
-                <p>Developing web code requires a strong understanding of phrasing weights. For example, we use the <strong>&lt;strong&gt; tag to emphasize absolute critical importance</strong>, while the <em>&lt;em&gt; tag is utilized to apply localized narrative stress</em>. When highlighting specific system utilities or command syntax instructions, wrapping strings inside the <code>&lt;code&gt; tag</code> renders inline technical components cleanly.</p>
-            </article>
-
-            <!-- Challenge 2: Hyperlinks and Anchor Target Attributes -->
-            <article id="challenge-2">
-                <h3>Daily Challenge 2: Hyperlinks & Navigation Anchors</h3>
-                <p>To establish safe outbound navigation tracking, we link to authoritative documentation channels. You can review the official structural guides by visiting the <a href="https://w3.org" target="_blank" rel="noopener noreferrer">Official W3C HTML Specifications Directory</a>. By appending the <code>target="_blank"</code> attribute configurations, the outbound pathway forces the destination to render cleanly inside a separate active browser tab window.</p>
-            </article>
-
-            <!-- Challenge 3: Layout Block Structures (div vs section vs article) -->
-            <article id="challenge-3">
-                <h3>Daily Challenge 3: Block Component Separation</h3>
-                <div>
-                    <p>This paragraph is housed inside a generic <code>&lt;div&gt;</code> element layout container. It serves as a non-semantic layout tool used exclusively to wrap blocks for styling hooks or script groupings when no thematic meaning applies.</p>
-                </div>
-                <section>
-                    <p>This paragraph is nested within a structural <code>&lt;section&gt;</code> element. It represents a standalone thematic grouping on a page, typically initialized with a distinct heading tag component.</p>
-                </section>
-                <article>
-                    <p>This paragraph sits within an independent <code>&lt;article&gt;</code> component. It represents a self-contained composition block that is independently distributable or reusable from the rest of the application layout tree.</p>
-                </article>
-            </article>
-
-            <!-- Challenge 4: Special Characters & HTML Entities -->
-            <article id="challenge-4">
-                <h3>Daily Challenge 4: Escaped Characters & Symbol Entities</h3>
-                <p>Displaying direct code strings requires using escaped HTML character entities so the browser reads them as literal text instead of active syntax. Here are the core structural tokens rendered cleanly:</p>
-                <ul>
-                    <li>The less-than sign symbol token: <code>&lt;</code> (written as <code>&amp;lt;</code>)</li>
-                    <li>The greater-than sign symbol token: <code>&gt;</code> (written as <code>&amp;gt;</code>)</li>
-                    <li>The ampersand system connector token: <code>&amp;</code> (written as <code>&amp;amp;</code>)</li>
-                    <li>The standard placeholder quotation marker: <code>&quot;</code> (written as <code>&amp;quot;</code>)</li>
-                </ul>
-            </article>
-
-            <!-- Challenge 5: Basic Accessibility & Image Alternate Mapping -->
-            <article id="challenge-5">
-                <h3>Daily Challenge 5: Basic Accessibility & Alternate Tags</h3>
-                <p>To pass modern accessibility auditing benchmarks, all graphic layouts must feature descriptive alternate descriptors. Below is an embedded placeholder wireframe displaying descriptive asset text configurations:</p>
-                <img src="https://placeholder.com" alt="A standard horizontal grey web layout placeholder wireframe box displaying dimensions text parameters" width="350" height="150">
-            </article>
+        <!-- ========================================== -->
+        <!-- EXTERNAL RESOURCE LINK                     -->
+        <!-- ========================================== -->
+        <section>
+            <h3>Favorite Resource</h3>
+            <p>
+                You can explore my primary learning hub for software documentation here: 
+                <a href="https://mozilla.org" target="_blank">Visit MDN Web Docs</a>.
+            </p>
         </section>
     </main>
 
-    <!-- Footer Component -->
+    <!-- ========================================== -->
+    <!-- FOOTER & DIRECT CONTACT TUNNEL            -->
+    <!-- ========================================== -->
     <footer>
-        <p>The <code>&lt;footer&gt;</code> defines a closing tray structure housing copyright markings, contact nodes, or license signatures.</p>
-        <p>&copy; 2026 Hellen Wamucii Njue. Built with thorough semantic accuracy.</p>
+        <section>
+            <h4>Get In Touch</h4>
+            <p>
+                Email: <a href="mailto:hellenjue@gmail.com">hellenjue@gmail.com</a>
+            </p>
+        </section>
+        <hr>
+        <p>&copy; 2026 Hellen Wamucii Njue. All rights reserved.</p>
     </footer>
 
 </body>
 </html>
-
