@@ -8,7 +8,7 @@
 3. **How many headings are there?**
    - 1 heading (an `<h1>` tag)
 
-## Website 2: https://mozilla.org
+## Website 2: https://developer.mozilla.org
 1. **Find the navigation menu - what tag is it wrapped in?**
    - It is wrapped in a semantic `<nav>` element layout container.
 2. **How is the search bar structured?**
