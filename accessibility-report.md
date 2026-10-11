@@ -50,4 +50,4 @@ I didn't use an automated script or a quick framework plugin to patch these erro
 ---
 
 ## 📝 Key Takeaway
-Running this audit taught me that building websites isn't just about making them function technically for myself. Semantic HTML isn't an arbitrary rule—it is the direct bridge that allows assistive technologies to read, speak, and make sense of my work for everyone.
+Running this audit taught me that building websites isn't just about making them function technically for myself. Semantic HTML isn't an arbitrary rule. It is the direct bridge that allows assistive technologies to read, speak, and make sense of my work for everyone.
