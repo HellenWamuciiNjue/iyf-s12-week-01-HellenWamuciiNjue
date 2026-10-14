@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Projects - Hellen Wamucii</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Hellen Wamucii Njue</title>
 </head>
 <body>
 
-  <!-- Top navigation bar matching the official course layout -->
-  <header>
+    <!-- ========================================== -->
+    <!-- NAVIGATION HEADER                          -->
+    <!-- ========================================== -->
+    <header>
         <h1>Hellen Wamucii Njue</h1>
         <nav>
             <ul>
@@ -20,55 +23,63 @@
         </nav>
     </header>
 
-  <!-- Main showcase area for built applications -->
-  <main>
-    <h2>Featured Engineering Projects</h2>
-    <p>Here is a look at the real-world software applications I am developing as I learn full-stack web engineering:</p>
+    <!-- ========================================== -->
+    <!-- MAIN PROJECTS SHOWCASE                     -->
+    <!-- ========================================== -->
+    <main>
+        <section>
+            <h2>Featured Engineering Projects</h2>
+            <p>Here is a look at the real-world software applications I am developing as I learn full-stack web engineering:</p>
+        </section>
 
-    <!-- Project 1: Nitas POS -->
-    <section>
-      <h3>1. Nitas POS (Point-of-Sale System)</h3>
-      <p>
-        A practical retail business management application built to track sales, product inventory, 
-        and daily customer balances. Inspired by my hands-on experience running operations for our family business, 
-        this system handles core transactional logic cleanly and efficiently.
-      </p>
-      <img src="images/nitas_pos_dashboard.png" alt="Wireframe screenshot mockup of the Nitas POS dashboard view">
-    </section>
+        <!-- Project 1: Nitas POS -->
+        <section>
+            <h3>1. Nitas POS (Point-of-Sale System)</h3>
+            <p>
+                <strong>The Origin Story:</strong> Inspired after thieves broke into our retail shop and stole our POS system hardware (CPU, UPS, and stock worth 60,000). The original POS vendors were unable to back up our data because they had installed both backend and frontend locally inside our CPU with no remote sync. 
+            </p>
+            <p>
+                <strong>The Solution:</strong> Nitas POS was engineered with a cloud-first mindset. Unlike fragile local setups, transaction and inventory data are safely stored in Google Drive and cloud architecture, meaning it is backed up forever. It provides practical retail management functionality to track sales, product inventory, and customer balances cleanly and efficiently.
+            </p>
+            <img src="images/nitas_pos_dashboard.png" alt="Wireframe screenshot mockup of the Nitas POS dashboard view" width="600">
+        </section>
 
-    <hr>
+        <hr>
 
-    <!-- Project 2: Leave Days Tracker -->
-    <section>
-      <h3>2. Corporate Leave Days Tracker</h3>
-      <p>
-        A workplace administrative dashboard optimized for tracking employee time-off metrics. 
-        It automates internal staff submission workflows, prevents date overlap issues, and provides 
-        a clean, easy-to-read summary panel for managers reviewing leave histories.
-      </p>
-      <img src="images/leave_days_tracker.png" alt="Visual mockup layout showing the staff leave request submission grid view">
-    </section>
+        <!-- Project 2: Leave Days Tracker -->
+        <section>
+            <h3>2. Corporate Leave Days Tracker</h3>
+            <p>
+                <strong>The Origin Story:</strong> Built to solve an internal administrative hurdle during my work as a Team Leader at Ipsos. Managing my team's leave and off-days using manual Excel sheets meant constant struggles with version control and the constant risk of accidentally losing tracking files. 
+            </p>
+            <p>
+                <strong>The Solution:</strong> LeaveDesk is a workplace administrative dashboard optimized for tracking employee time-off metrics. It automates internal staff submission workflows, prevents date overlap issues, and provides a clean, easy-to-read summary panel for managers reviewing leave histories.
+            </p>
+            <img src="images/leave_days_tracker.png" alt="Visual mockup layout showing the staff leave request submission grid view" width="600">
+        </section>
 
-    <hr>
+        <hr>
 
-    <!-- Project 3: WorkTap Portal -->
-    <section>
-      <h3>3. WorkTap Web Application</h3>
-      <p>
-        A secure, project-driven workspace architecture designed to monitor background database tasks 
-        and streamline local development infrastructure. It focuses heavily on process flow design, error reduction, 
-        and workflow automation.
-      </p>
-      <img src="images/worktap_portal.png" alt="Database monitoring layout scheme for the WorkTap system interface">
-    </section>
+        <!-- Project 3: WorkTap Web Application -->
+        <section>
+            <h3>3. WorkTap Web Application (In Progress R&D)</h3>
+            <p>
+                <strong>The Vision & Hurdles:</strong> WorkTap is an online marketplace architecture I set out to build to connect workers with opportunities. However, it hit critical engineering roadblocks along the way: I faced challenges incorporating M-Pesa mobile payments, building automated verification layers for staff and legitimate clients, and navigating native app publishing loops for the Play Store. 
+            </p>
+            <p>
+                <strong>The Path Forward:</strong> Rather than hiding these roadblocks, WorkTap serves as my active sandbox for solving hard backend problems—testing Daraja API payment triggers and exploring progressive web deployment frameworks.
+            </p>
+            <img src="images/worktap_portal.png" alt="Database monitoring layout scheme for the WorkTap system interface" width="600">
+        </section>
+    </main>
 
-  </main>
-
-  <!-- Page standard footer layout -->
-  <footer>
-    <hr>
-    <p>&copy; 2026 Hellen Wamucii Njue | Built for Week 1 Deliverables.</p>
-  </footer>
+    <!-- ========================================== -->
+    <!-- FOOTER                                     -->
+    <!-- ========================================== -->
+    <footer>
+        <hr>
+        <p>&copy; 2026 Hellen Wamucii Njue | Built for Week 1 Deliverables.</p>
+    </footer>
 
 </body>
 </html>
